@@ -20,9 +20,9 @@ The following folders and files are provided:
 - ``proposal.pdf``: The capstone proposal for this project.
 - ``report.pdf``: The final report for this project.
 - ``Project.ipynb``: The development Notebook used for this project and required to reproduce the solutions and results.
-- *stacksample*: It will contain the  ``Questions.csv`` and ``Tags.csv`` tables downloaded via the Kaggle API after executing the notebook ``Project.ipynb``.
-- *forBlazingText*: It will contain the ``train``,``valid``, and ``test`` text files required for both fastText and BlazingText models after executing the notebook ``Project.ipynb``.
-- *forPyTorch*: Will contain the ``train.csv``,``valid.csv``, and ``test.csv`` csv files required for both fastText and BlazingText models after executing the notebook ``Project.ipynb``.
+- *stacksample*: It will be created after executing the notebook ``Project.ipynb``. It will contain the  ``Questions.csv`` and ``Tags.csv`` tables downloaded via the Kaggle API.
+- *forBlazingText*: It will be created after executing the notebook ``Project.ipynb``. It will contain the ``train``,``valid``, and ``test`` text files required for both fastText and BlazingText models.
+- *forPyTorch*: It will be created after executing the notebook ``Project.ipynb``. It will contain the ``train.csv``,``valid.csv``, and ``test.csv`` csv files required for the PyTorch model.
 -  *source*: Contains the custom code required for training and serving the PyTorch model.
 - *website*: Contains the HTML file required for deploying the web app that uses the deployed PyTorch model.
 
